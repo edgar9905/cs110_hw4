@@ -13,7 +13,11 @@ li * {
 }
 li {
   clear:both;
-  list-style:none;
+  list-style:none;overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 25px
+
 }
 button {
   outline: none;
@@ -42,9 +46,4 @@ input[type="text"] {
   border-radius: 6px;
   font-family: 'Trirong', serif;
   color: #888;
-}
-li {
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
 }
