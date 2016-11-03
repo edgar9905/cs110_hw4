@@ -1,9 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Trirong');
 body{
 	background-image: url(http://tom-dshikorn.dou.tomsk.ru/files/2013/03/fon-abstraktnyiy.jpg);
-	font-family: 'Trirong', serif;
+
 }
-h3{
-	text-align: center;
-	color: #1D1545
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li * {
+  float: left;
+}
+li {
+  clear:both;
+  list-style:none;
+}
+button {
+  outline: none;
+}
+button {
+    border-radius: 10px;
+    background: #6B5BAD;
+    padding: 15px; 
+    width: 70px;
+    height: 55px; 
+}
+h3 {
+  color: #333;
+  font-weight: 700;
+  font-size: 25px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Trirong', serif;
+  text-align: center;
+}
+input[type="text"] {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: 'Trirong', serif;
+  color: #888;
+}
+li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
 }
