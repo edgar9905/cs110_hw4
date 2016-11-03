@@ -1,0 +1,15 @@
+{
+  "name": "cs_110hw4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/edgar9905/cs110_hw4"
+  },
+  "author": "",
+  "license": "ISC"
+}
