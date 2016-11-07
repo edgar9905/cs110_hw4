@@ -10,7 +10,7 @@ http.createServer((req, res)=>{
       res.end(data);
     });
   }
-  else if (req.url==="/initialTodos" && req.method==="GET"){1
+  else if (req.url==="/initialTodos" && req.method==="GET"){
       res.end(JSON.stringify(todos));
   }
   else if (req.url==="/todoAdd" && req.method==="POST"){
